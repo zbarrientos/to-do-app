@@ -1,0 +1,49 @@
+header {
+  background: url(../images/header_image.jpg) center / cover;
+  height: 50vh;
+  text-align: center;
+  }
+
+h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 8rem;
+  font-family: "SF Pro Text", sans-serif;
+  padding-top: 80px;
+}
+
+form {
+  padding-top: 50px;
+}
+
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #6313B3;
+  color: white;
+}
+
+label {
+  position: relative;
+  left: 10px;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 2.5rem;
+}
+
+input {
+  position: relative;
+  left: 40px;
+}
+
+button {
+  position: relative;
+  left: 60px;
+  color: black;
+  background-color: yellow;
+  font-size: 1.5rem;
+}
+
+ul {
+  font-size: 1.5rem;
+}

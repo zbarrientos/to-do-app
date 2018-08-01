@@ -31,16 +31,16 @@ function onReady() {
     //empty the input
     newToDoText.value = '';
 
-// Delete Button
-deleteButton.addEventListener('markCheckbox'() => {
-  event.preventDefault();
-  //delete item
-    toDoList.removeChild(newLi);
-  }
-        });
- }
 
-
+  // Delete Button
+  deleteButton.addEventListener('markCheckbox'() => {
+    event.preventDefault();
+    //delete item
+      toDoList.removeChild(newLi);
+    }
+  });
+}
+  
 window.onload = function() {
 onReady();
  };
