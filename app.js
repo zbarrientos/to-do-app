@@ -36,6 +36,7 @@ function onReady() {
     button.innerText = 'Delete';
     newLi.appendChild(button);
 
+/* add the new event listener for the delete button */
           button.addEventListener('click', () => {
 		      event.preventDefault();
 
