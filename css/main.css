@@ -42,6 +42,7 @@ button {
   color: black;
   background-color: yellow;
   font-size: 1.5rem;
+  margin: 10px;
 }
 
 ul {
