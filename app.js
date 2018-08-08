@@ -13,12 +13,10 @@ function createNewToDo() {
     toDos.push({
       title: newToDoText.value,
       complete: false,
-      id: id.value
+      id: ++id
     });
 
-    ++id;
     newToDoText.value = '';
-
     renderTheUI();
   }
 
@@ -32,7 +30,7 @@ function createNewToDo() {
         const checkbox = document.createElement('input');
         checkbox.type = "checkbox";
 
-        /*create delete button and attach to li */
+        /*create delete button */
         let button = document.createElement('button');
         button.innerText = 'Delete';
 
