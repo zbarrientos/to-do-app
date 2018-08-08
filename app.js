@@ -3,7 +3,7 @@ function onReady() {
 let id = 0;
 
 
-const toDos = [];
+var toDos = [];
 const addToDoForm = document.getElementById('addToDoForm');
 
 function createNewToDo() {
@@ -38,10 +38,9 @@ function createNewToDo() {
 
     /* add the new event listener for the delete button */
               button.addEventListener('click', event => {
-                event.preventDefault();
-                toDos = toDos.filter(function(item){
-                return item.id !== toDos.id;
-                })
+               toDos = toDos.filter(function(elements) {
+         return id !== toDo.id;
+                });
               renderTheUI();
             });
 
@@ -60,7 +59,7 @@ function createNewToDo() {
     createNewToDo();
   });
 
-rendertheUI();
+renderTheUI();
 }
 
 window.onload = function() {
